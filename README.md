@@ -1,15 +1,18 @@
 # Razzo-Blog
 A test blog for Razzo
 
-#Setup
+# Setup
 Setting up and starting the server:
+```sh
 cd server
-npm init
+npm install
 npm run knex:migrate
 npm run dev
+```
 Setting up and starting the application:
+```sh
 cd web
-npm init
+npm install
 npm start
-
+```
 Default address: http://localhost:3000
