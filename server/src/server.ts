@@ -11,9 +11,9 @@ app.use(cors());
 app.use(express.json());
 
 // Artifical delay
-app.use( ( req, res, next ) => {
-  setTimeout(next, Math.floor( ( 1000 ) + 100 ) );
-});
+//app.use( ( req, res, next ) => {
+//  setTimeout(next, Math.floor( ( 1000 ) + 100 ) );
+//});
 
 app.use(routes);
 

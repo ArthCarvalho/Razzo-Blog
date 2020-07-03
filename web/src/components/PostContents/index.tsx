@@ -166,7 +166,7 @@ const PostContents: React.FC<Props> = ({setNeedsFetch}) => {
                 setData({...data, body: event.target.value});
               }}
               className={
-                `w-full text-sm font-semibold leading-loose whitespace-pre-wrap focus:outline-none focus:bg-gray-100
+                `w-full h-64 text-sm font-semibold leading-loose whitespace-pre-wrap focus:outline-none focus:bg-gray-100
                 ${editMode ? 'bg-gray-200 p-2 rounded-lg text-purple-dark-gray' : 'text-custom-gray-medium'}`
               }
             >
